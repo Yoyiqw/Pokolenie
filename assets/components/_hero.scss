@@ -1,0 +1,30 @@
+.hero{
+    &__name{
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 66px;
+        color: #000;
+        max-width: 482px;
+    }
+    &__description{
+        max-width: 500px;
+        font-size: 14px;
+        color: #000;
+        margin-top: 20px;
+        line-height: 200%;
+    }
+    &__row{
+        margin-top: 76px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width:490px) {
+    .hero{
+        &__img{
+            max-width: 100%;
+        }
+    }
+}

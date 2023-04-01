@@ -1,0 +1,16 @@
+.portfolio{
+    &__row{
+        text-align: center;
+        padding-top: 90px;
+    }
+    &__name{
+        padding-bottom: 70.33px;
+    }
+    &__link{
+        padding: 40px 0px 90px 0px;
+        text-decoration: underline;
+    }
+    &__img{
+        max-width: 100%;
+    }
+}
